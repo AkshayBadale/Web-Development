@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document</title>
+    <script>
+        function demo() {
+            var str = "Visit W3Schools";
+            //var n = str.search(/w3schools/i);
+            
+            //var n = str.search("W3Schools");
+            //var n = str.search("w3Schools");
+
+            //var n = str.search("[abc]");
+            //var n = str.search("[^abc]");
+
+            // var str = "Visit Microsoft!";
+            // var res = str.replace(/microsoft/i, "W3Schools");
+            // alert(res);
+
+            // var patt = /x/;
+            // var res = patt.test("India is the best!");
+            // alert(res);
+
+            // var str = "The rain in SPAIN stays mainly in the plain"; 
+            // var res = str.match(/ain/gi);
+
+            // var str = "12data34moredata56nodata";
+            // //var res = str.match(/\d/g);
+            // //var res = str.match(/\w/g);
+
+            // var str = "12d@ata34moredata56nodata";
+            // var res = str.match(/\W/g);
+            // alert(res);
+
+            var str = "some data";
+            var res = str.match(/a+/i);
+            var res1 = str.match(/a*/g);
+            alert(res);
+            alert(res1);
+
+
+        }
+    </script>
+</head>
+
+<body onload="demo()">
+    <h1 id="header1">Hello</h1>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+<script>
+
+function Display(a)
+{
+    alert("Hello" + a);
+}
+
+function MainDisplay()
+{
+    //setTimeout(Display(1), 2000);
+
+    //anonymous fn
+    // setTimeout(function() {
+    //     alert("Hello" + a);
+    // }, 10000000);
+
+}
+
+var demo = setTimeout(function() {
+    var a = 1;
+         alert("Hello" + a);
+}, 5000);
+
+</script>
+
+</head>
+<body>
+    
+<input type="button" value="Click Here" onclick="MainDisplay()">
+
+<br> 
+
+<br>
+<input type="button" value="Click Here 1" onclick="clearTimeout(demo);">
+
+
+</body>
+</html>

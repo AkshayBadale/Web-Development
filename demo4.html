@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document</title>
+    <script>
+        var demo;
+
+        function SomeFunction() {
+            //every 3 seconds
+            //demo = setInterval(Hello, 3000);
+
+            //only once.
+            //demo = setInterval(alert('hi'), 3000);
+
+            //using callback/anonymous function
+            demo = setInterval(function(){
+                alert('hi');
+            }, 3000);
+        }
+
+        function Hello() {
+            alert("Hello!");
+        }
+    </script>
+</head>
+
+<body>
+        <button onclick="SomeFunction()">Try it</button>
+
+        <br>
+
+        <button onclick="clearInterval(demo)">Clear</button>
+</body>
+
+</html>

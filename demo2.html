@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+<script>
+
+function Demo(a)
+{
+    //var a = parseInt(document.getElementById("txtNum").value);
+
+    a = parseInt(a);
+    
+    for(i=a;i<a+5;i++)
+    {
+        document.getElementById("pData").innerHTML+=i;
+    }
+}
+
+</script>
+
+</head>
+<body>
+    
+<form id="f1">
+    Enter a No: 
+    <input type="text" id="txtNum">
+    
+    <br>
+    <br>
+    
+    <input type="button" onclick="Demo(f1.txtNum.value)">
+
+</form>    
+    <br>
+    <br>
+    
+    <p id="pData">The output is - </p>
+    
+</body>
+</html>

@@ -1,7 +1,4 @@
-# Web-Development
+# Web-Programming
+Web Programming
 
-Web Progrramming
-
-Branches:
-1) HTML & CSS
-2) JavaScript
+JavaScript
